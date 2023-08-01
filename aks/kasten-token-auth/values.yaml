@@ -1,0 +1,5 @@
+externalGateway:
+  create: true
+auth:
+  tokenAuth:
+    enabled: true
