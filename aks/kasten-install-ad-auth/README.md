@@ -55,5 +55,5 @@ kasten-app   Synced        Healthy
 Verify that all k10 pods are successfully running 
 
 ```
-oc get pods -n kasten-io
+kubectl get pods -n kasten-io
 ```
