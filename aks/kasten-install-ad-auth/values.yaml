@@ -5,6 +5,8 @@ k10:
     host: smohandass-aks-k10-ad.sbmlabs.net
     urlPath: "/k10"
   auth:
+    groupAllowList:
+    - 675a15fd-127c-4c2a-a9a3-1eaac9c4ae86
     oidcAuth:
       enabled: true
       providerURL: "https://login.microsoftonline.com/6d2374b4-aceb-42ac-966a-716a93f07db0/v2.0"
@@ -15,7 +17,3 @@ k10:
       clientSecret: "s1o8Q~MEz9JL2iEPe~xr6R.RbRcamyFgCXduadto"
       usernameClaim: "sub"
       usernamePrefix: "satheesh_azure_"
-      groupClaim: "groups"
-      groupPrefix: "satheesh_azure_"
-    groupAllowList:
-    - 675a15fd-127c-4c2a-a9a3-1eaac9c4ae86
