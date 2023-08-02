@@ -17,4 +17,5 @@ k10:
       usernamePrefix: "satheesh_azure_"
       groupClaim: "groups"
       groupPrefix: "satheesh_azure_"
-      "groupAllowList[0]": "Kasten-smohandass-test1"
+    groupAllowList:
+    - 675a15fd-127c-4c2a-a9a3-1eaac9c4ae86
