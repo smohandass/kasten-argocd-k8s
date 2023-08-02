@@ -7,9 +7,11 @@ If you haven't setup the Argo CD on the kubernetes cluster, follow the instructi
 
 Review this [blog](https://www.kasten.io/kubernetes/resources/blog/posts/using-azure-ad-with-kasten-k10-for-authentication-and-authorization) for the setup that is needed on Azure active directory for Kasten authentication to work.
 
+Fork the repo to your github account and update the values.yaml file according to your install
+
 ### Create Argo CD application
 
-Create an ArgoCD application using the following yaml to install Kasten K10 chart 
+Create an ArgoCD application using the following yaml to install Kasten K10 chart. Update the repoURL to match your Github Repo
 
 ```
 apiVersion: argoproj.io/v1alpha1
