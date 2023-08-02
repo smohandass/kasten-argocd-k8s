@@ -16,3 +16,6 @@ k10:
       clientID: "ab6764d7-9d95-4236-9008-a40e9c1a9c6d"
       clientSecret: "s1o8Q~MEz9JL2iEPe~xr6R.RbRcamyFgCXduadto"
       usernameClaim: "sub"
+      usernamePrefix: "satheesh_azure_"
+      groupClaim: "groups"
+      groupPrefix: "satheesh_azure_"
