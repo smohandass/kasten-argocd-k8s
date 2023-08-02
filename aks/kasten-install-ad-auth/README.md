@@ -24,7 +24,7 @@ spec:
     namespace: kasten-io
     server: 'https://kubernetes.default.svc'
   source:
-    path: aks/kasten-helm-install
+    path: aks/kasten-install-ad-auth
     repoURL: https://github.com/smohandass/kasten-argocd-k8s.git
     targetRevision: main
     helm:
