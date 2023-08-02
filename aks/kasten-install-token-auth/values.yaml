@@ -1,0 +1,6 @@
+k10:
+  externalGateway:
+    create: true
+  auth:
+    tokenAuth:
+      enabled: true
