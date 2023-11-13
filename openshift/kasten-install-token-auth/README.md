@@ -1,6 +1,6 @@
 ## Installing Kasten using argocd on AKS cluster
 
-In this example, we will install kasten's K10 helm chart using ArgoCD on an AKS cluster with token authentication
+In this example, we will install kasten's K10 helm chart using ArgoCD on a Openshift cluster with token authentication.
 
 ### Pre-requisites 
 If you haven't setup the Argo CD on the kubernetes cluster, follow the instructions [here](https://github.com/smohandass/kasten-argocd-k8s/blob/main/README.md)
@@ -26,7 +26,7 @@ spec:
     namespace: kasten-io
     server: 'https://kubernetes.default.svc'
   source:
-    path: aks/kasten-install-token-auth
+    path: openshift/kasten-install-token-auth
     repoURL: https://github.com/smohandass/kasten-argocd-k8s.git
     targetRevision: main
     helm:
