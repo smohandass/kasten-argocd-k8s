@@ -1,0 +1,10 @@
+k10:
+  auth:
+    tokenAuth:
+      enabled: true
+  route:
+    enabled: true
+    tls:
+      enabled: true
+  scc:
+    create: true
