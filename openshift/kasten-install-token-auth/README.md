@@ -17,7 +17,7 @@ Create an ArgoCD application using the following yaml to install Kasten K10 char
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kasten-app
+  name: k10
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
