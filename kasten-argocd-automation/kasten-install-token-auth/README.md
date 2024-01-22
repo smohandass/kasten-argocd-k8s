@@ -1,11 +1,9 @@
 ## Installing Kasten using argocd on AKS cluster
 
-In this example, we will install kasten's K10 helm chart using ArgoCD on an AKS cluster with token authentication
+In this example, we will install kasten's K10 helm chart using ArgoCD on a k8s cluster with token authentication
 
 ### Pre-requisites 
 If you haven't setup the Argo CD on the kubernetes cluster, follow the instructions [here](https://github.com/smohandass/kasten-argocd-k8s/blob/main/README.md)
-
-Review this [blog](https://www.kasten.io/kubernetes/resources/blog/posts/using-azure-ad-with-kasten-k10-for-authentication-and-authorization) for the setup that is needed on Azure active directory for Kasten authentication to work.
 
 Fork the repo to your github account and update the values.yaml file according to your install
 
@@ -26,7 +24,7 @@ spec:
     namespace: kasten-io
     server: 'https://kubernetes.default.svc'
   source:
-    path: aks/kasten-install-token-auth
+    path: kasten-argocd-automation/kasten-install-token-auth
     repoURL: https://github.com/smohandass/kasten-argocd-k8s.git
     targetRevision: main
     helm:
