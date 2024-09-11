@@ -5,5 +5,5 @@ type: application
 version: 1.0.0
 dependencies:
 - name: k10
-  version: 7.0.8
+  version: 7.0.7
   repository: https://charts.kasten.io/
